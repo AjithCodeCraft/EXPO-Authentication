@@ -1,0 +1,14 @@
+I1115 22:22:46.828293   42798 load.go:37] Reloading schema and connectors...
+I1115 22:22:46.839619   42798 control.go:45] [engine.Service /emulator/simpleproject e5ff] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I1115 22:22:46.849133   42798 control.go:73] [engine.Service /emulator/simpleproject e5ff] UpdateConnector(default): done sources: connector/queries.gql [1855B] connector/mutations.gql [1163B] 
+I1115 22:22:46.868859   42798 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/home/ajith/Desktop/simpleproject/dataconnect-generated/js/default-connector"
+I1115 22:22:46.870293   42798 collector.go:107] schema extensions wrote into "/home/ajith/Desktop/simpleproject/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65742B] 
+I1115 22:22:46.870802   42798 collector.go:107] connector "default" javascriptSdk wrote into "/home/ajith/Desktop/simpleproject/dataconnect-generated/js/default-connector"
+Generated sources: index.cjs.js [227B] package.json [623B] index.d.ts [264B] esm/index.esm.js [186B] esm/package.json [17B] 
+I1115 22:22:46.874061   42798 installsdk.go:48] Package @firebasegen/default-connector is already installed. Skipping installation
+I1115 22:22:46.874145   42798 load.go:115] Finished reloading
+I1115 22:22:46.875031   42798 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1115 22:22:46.875138   42798 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1115 22:22:48.646169   42798 control.go:45] [engine.Service /emulator/simpleproject 3a12] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I1115 22:22:48.646359   42798 control.go:73] [engine.Service /emulator/simpleproject 3a12] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1855B] 
